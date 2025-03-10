@@ -36,3 +36,10 @@ document.querySelectorAll('nav a').forEach(link => {
     });
   });
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const projectsSection = document.getElementById("projects");
+
+  setTimeout(() => {
+    projectsSection.style.opacity = "1";
+  }, 1000);
+});
