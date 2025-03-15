@@ -205,7 +205,6 @@ body {
   transform: translateY(0);
 }
 
-
 #about {
   padding: 50px;
   text-align: center;
@@ -232,7 +231,7 @@ body {
 }
 
 #about:hover h2::after {
-  width: 80px;
+  width: 30px;
 }
 
 #about p {
